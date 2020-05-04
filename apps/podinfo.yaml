@@ -24,7 +24,6 @@ spec:
         prometheus.io/scrape: "true"
       labels:
         app: podinfo
-        location: madrid
     spec:
       initContainers:
       - name: init
