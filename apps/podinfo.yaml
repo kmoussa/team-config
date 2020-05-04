@@ -6,6 +6,7 @@ metadata:
   namespace: team-a
   labels:
     app: podinfo
+    location: madrid
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.init: regex:^3.10.*
