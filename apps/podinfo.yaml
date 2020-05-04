@@ -6,7 +6,6 @@ metadata:
   namespace: team-a
   labels:
     app: podinfo
-    location: madrid
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.init: regex:^3.10.*
@@ -25,6 +24,7 @@ spec:
         prometheus.io/scrape: "true"
       labels:
         app: podinfo
+        location: madrid
     spec:
       initContainers:
       - name: init
